@@ -2377,7 +2377,7 @@ allow certain variable names and/or values.
   <environmentvariables>
      <variable name="FOO"><value>bar</value></variable>
      <variable name="MULTIPLE_LINES"><value>multiplelines</value></variable>
-     <variable name="COMPLEX"><value>![CDATA[This has very <complex> data]]</value></variable>
+     <variable name="COMPLEX"><value><![CDATA[This has very <complex> data]]></value></variable>
   </environmentvariables>
 ```
 
